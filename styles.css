@@ -9,26 +9,16 @@ html {
   display: flex;
   width: 100%;
   background-color: #f2f2f2;
-  justify-content: space-around;
-  margin: auto;
+  justify-content: space-between;
+}
+.logo {
+  justify-self: flex-end;
+}
+.icon {
+  display: none;
+  padding: 2em;
 }
 
-.navBox1 {
-  /* background-color: red; */
-  width: 50%;
-
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.navBox2 {
-  /* background-color: blue; */
-  width: 50%;
-
-  display: flex;
-  justify-content: flex-end;
-  align-content: center;
-}
 .navList {
   list-style-type: none;
   margin: 0;
@@ -42,6 +32,7 @@ html {
   color: rgb(36, 47, 87);
   font-size: 0.9375em;
   padding: 1em;
+  align-self: center;
 }
 .pkgXLogo {
   width: auto;
@@ -49,13 +40,16 @@ html {
   padding: 1.2em;
   padding-left: 2em;
 }
+.icon {
+  color: rgb(2, 122, 255);
+}
 .lastLi {
   padding-right: 2em;
 }
 
-/* Section1 CSS */
+/* firstSection CSS */
 
-.section1 {
+.firstSection {
   margin-bottom: 98px;
 }
 
@@ -67,21 +61,21 @@ html {
 .flexContainer {
   padding-top: 120px;
   display: flex;
-  margin-left: 18%;
-  margin-right: 18%;
+  margin-left: 12%;
+  margin-right: 6%;
   justify-content: center;
   align-content: center;
 }
-.otherSection1 {
+.otherfirstSection {
   width: 50%;
   justify-content: flex-end;
 }
-.headingSection1 {
+.headingfirstSection {
   width: 50%;
   color: rgb(36, 47, 87);
   justify-content: flex-start;
 }
-.textInHeadingSection1 {
+.textInHeadingfirstSection {
   font-size: 32px;
   font-family: "Muli", sans-serif;
   font-weight: 600;
@@ -89,7 +83,7 @@ html {
   line-height: 53px;
   margin-bottom: 24px;
 }
-.paragraphInSection1 {
+.paragraphInfirstSection {
   color: rgb(109, 114, 121);
   font-size: 16px;
   line-height: 29px;
@@ -136,12 +130,12 @@ button {
   border: 2px solid rgb(2, 122, 255);
 }
 
-/* Section2 */
+/* secondSection */
 
-.offsetLogoSection2 {
+.offsetLogosecondSection {
 }
 
-.section2 {
+.secondSection {
   min-height: 630px;
   position: relative;
 }
@@ -208,7 +202,7 @@ button {
   margin-bottom: 26px;
 }
 
-.textSection2 {
+.textsecondSection {
   font-family: "Muli", sans-serif;
   font-weight: 400;
   width: 374px;
@@ -217,11 +211,11 @@ button {
   letter-spacing: 0.47px;
   line-height: 26px;
 }
-.section2List {
+.secondSectionList {
   list-style: none;
   padding: 27px;
 }
-.listItemsSection2::before {
+.listItemssecondSection::before {
   content: "•";
   color: rgb(2, 122, 255);
   display: inline-block;
@@ -229,7 +223,7 @@ button {
   margin-left: -1em;
   font-size: 2em;
 }
-.listItemsSection2 {
+.listItemssecondSection {
   font-family: "Muli", sans-serif;
   font-weight: 700;
   color: rgb(36, 47, 87);
@@ -341,9 +335,9 @@ button {
   display: flex;
 }
 
-/* Section5 */
+/* fifthSection */
 
-.section5 {
+.fifthSection {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 3fr 1fr;
@@ -353,16 +347,16 @@ button {
     "ee ff";
 }
 
-.section5Item4 {
+.fifthSectionItem4 {
   grid-area: ff;
   display: flex;
   justify-content: flex-end;
 }
-.section5Item3 {
+.fifthSectionItem3 {
   grid-area: 2/1/3/3;
 }
 
-.leftGraphicSection5 {
+.leftGraphicfifthSection {
   display: block;
   max-width: 100%;
   box-sizing: border-box;
@@ -370,7 +364,7 @@ button {
   width: 50%;
   padding-left: 1%;
 }
-.rightGraphicSection5 {
+.rightGraphicfifthSection {
   display: block;
   max-width: 100%;
   box-sizing: border-box;
@@ -381,7 +375,7 @@ button {
   padding-left: 1%;
 }
 
-.section5Content {
+.fifthSectionContent {
   display: flex;
   justify-content: center;
 }
@@ -395,7 +389,7 @@ button {
   padding-right: 2em;
 }
 
-.section5ContentHeader {
+.fifthSectionContentHeader {
   font-family: Muli, sans-serif;
   font-weight: 700;
   color: rgb(36, 47, 87);
@@ -405,7 +399,7 @@ button {
   display: block;
 }
 
-.section5ContentPara {
+.fifthSectionContentPara {
   font-family: Muli, sans-serif;
   font-weight: 400;
   color: rgb(36, 47, 87);
@@ -413,7 +407,7 @@ button {
   letter-spacing: 0.5px;
   line-height: 24px;
 }
-#section5Button {
+#fifthSectionButton {
   cursor: pointer;
   display: inline-flex;
   -webkit-box-align: center;
@@ -439,7 +433,7 @@ button {
   color: rgb(255, 255, 255);
   background-color: rgb(2, 182, 124);
 }
-.section5IpadGuyImage {
+.fifthSectionIpadGuyImage {
   padding-left: 2em;
 }
 
@@ -527,7 +521,37 @@ button {
   padding-top: 1em;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
+  /* Navigation  */
+  .navList.responsive {
+    position: relative;
+  }
+  .navList.responsive .icon {
+    position: absolute;
+    right: 0;
+
+    bottom: 96%;
+  }
+  .alterNavBar {
+    flex-direction: column;
+  }
+
+  .navListLink {
+    display: none;
+  }
+  #iconi {
+    display: block;
+    padding-right: 2.5em;
+  }
+  .responsive {
+    display: flex;
+    flex-direction: column;
+  }
+  .navList.responsive li {
+    display: block;
+    /* flex-direction: column; */
+  }
+
   /* Section 1 */
 
   .flexContainer {
@@ -538,12 +562,12 @@ button {
     justify-content: center;
     align-content: center;
   }
-  .otherSection1 {
+  .otherfirstSection {
     width: 100%;
     justify-content: center;
     order: 1;
   }
-  .headingSection1 {
+  .headingfirstSection {
     order: 2;
     color: rgb(36, 47, 87);
     justify-self: center;
@@ -637,7 +661,7 @@ button {
     margin-bottom: 26px;
   }
 
-  .textSection2 {
+  .textsecondSection {
     font-family: "Muli", sans-serif;
     font-weight: 400;
     width: 374px;
@@ -646,11 +670,11 @@ button {
     letter-spacing: 0.47px;
     line-height: 26px;
   }
-  .section2List {
+  .secondSectionList {
     list-style: none;
     padding: 27px;
   }
-  .listItemsSection2::before {
+  .listItemssecondSection::before {
     content: "•";
     color: rgb(2, 122, 255);
     display: inline-block;
@@ -658,7 +682,7 @@ button {
     margin-left: -1em;
     font-size: 2em;
   }
-  .listItemsSection2 {
+  .listItemssecondSection {
     font-family: "Muli", sans-serif;
     font-weight: 700;
     color: rgb(36, 47, 87);
@@ -685,7 +709,7 @@ button {
   .imageX {
     display: none;
   }
-  .card2{
-      display: none;
+  .card2 {
+    display: none;
   }
 }
