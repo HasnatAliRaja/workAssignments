@@ -166,6 +166,7 @@ button {
   align-content: center;
 }
 .manPic {
+  margin-top: 25em;
 }
 .rightPillsPic {
   height: 460px;
@@ -241,9 +242,122 @@ button {
   position: absolute;
   top: -2.4em;
 }
-#offLogo {
-  box-shadow: rgb(128, 77, 223) 0px 2px 14px 0px;
+
+/* Section3 */
+
+
+.offsetLogoThirdSection {
 }
+
+.thirdSection {
+  min-height: 630px;
+  position: relative;
+}
+
+.gridContainer3 {
+  padding-top: 6em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "a b c d";
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(2, 122, 255) 0px 2px 14px 0px;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em 0em 6em;
+  margin-bottom: 6em;
+}
+#gc3 {
+  box-shadow: rgb(128, 77, 223) 0px 2px 14px 0px;
+  margin-bottom: 2em;
+}
+
+.manImageDiv3 {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+.manPic3 {
+}
+.rightPillsPic3 {
+  height: 460px;
+  transform: scaleX(-1);
+}
+.leftPillsPic3 {
+  height: 460px;
+}
+.item33 {
+  margin-top: 10em;
+}
+.item43 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.textBusiness3 {
+  font-family: "Muli", sans-serif;
+  font-weight: 700;
+  color: rgb(2, 122, 255);
+  font-size: 20px;
+  letter-spacing: 0.56px;
+  line-height: 24px;
+  /* padding-bottom: 1.5em; */
+}
+
+.textMailroom3{
+  font-family: "Muli", sans-serif;
+  font-weight: 700;
+  color: rgb(2, 122, 255);
+  font-size: 34px;
+  letter-spacing: 0.77px;
+  line-height: 40px;
+  margin-bottom: 26px;
+}
+
+.textThirdSection {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  width: 374px;
+  color: rgb(36, 47, 87);
+  font-size: 15px;
+  letter-spacing: 0.47px;
+  line-height: 26px;
+}
+.thirdSectionList {
+  list-style: none;
+  padding: 27px;
+}
+.listItemsThirdSection::before {
+  content: "•";
+  color: rgb(2, 122, 255);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 2em;
+}
+.listItemssecondSection {
+  font-family: "Muli", sans-serif;
+  font-weight: 700;
+  color: rgb(36, 47, 87);
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+.offLogo3 {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(128, 77, 223) 0px 2px 14px 0px;
+  padding: 1em;
+  position: absolute;
+  top: -2.4em;
+}
+
+
+
 
 /* Section4 */
 
@@ -521,7 +635,7 @@ button {
   padding-top: 1em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   /* Navigation  */
   .navList.responsive {
     position: relative;
@@ -581,7 +695,7 @@ button {
     padding-top: 6em;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
 
     grid-template-areas:
       "a"
@@ -614,6 +728,7 @@ button {
     height: 10%;
     transform: scaleX(-1);
     grid-area: c;
+    margin-bottom:2em;
   }
   .leftPillsPic {
     height: 10%;
@@ -624,13 +739,14 @@ button {
     grid-area: b;
     justify-self: center;
     width: 100%;
-    margin-left: 1em;
+    margin-left: 4em;
   }
   .item4 {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     grid-area: c;
+    align-self: flex-start;
   }
   .item2 {
     grid-area: a;
@@ -700,9 +816,20 @@ button {
     position: absolute;
     top: -2.4em;
   }
-  #offLogo {
-    box-shadow: rgb(128, 77, 223) 0px 2px 14px 0px;
+ 
+  .offLogo {
+    border-radius: 10px;
+    left:45%;
   }
+  .rightPillsPic {
+    height: 175px;
+    transform: scale(-1,-1);
+
+  }
+  .leftPillsPic {
+    height: 175px;
+  }
+
 
   /* Section 3 */
 
@@ -712,4 +839,209 @@ button {
   .card2 {
     display: none;
   }
+  .item23 {
+    grid-area: a;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+
+
+  .gridContainer3 {
+    padding-top: 6em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr auto;
+
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(2, 122, 255) 0px 2px 14px 0px;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em 0em 0em;
+    margin-bottom: 6em;
+  }
+  .manImageDiv3 {
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
+    grid-area: a;
+  }
+  .manPic3 {
+    justify-self: center;
+    align-self: center;
+    height: 15em;
+  
+  }
+  .rightPillsPic3 {
+    height: 10%;
+    transform: scaleX(-1);
+    grid-area: c;
+    margin-bottom:2em;
+  }
+  .leftPillsPic3 {
+    height: 10%;
+    grid-area: a;
+  }
+  .item33 {
+    margin-top: 4em;
+    grid-area: b;
+    justify-self: center;
+    width: 100%;
+    margin-left: 4em;
+  }
+  .item43 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    grid-area: c;
+    align-self: flex-start;
+  }
+  .item23 {
+    grid-area: a;
+    margin-left: 220px;
+    margin-top: 100px;
+  }
+
+  .item13 {
+    grid-area: a;
+  }
+  .textBusiness3 {
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    color: rgb(2, 122, 255);
+    font-size: 20px;
+    letter-spacing: 0.56px;
+    line-height: 24px;
+    /* padding-bottom: 1.5em; */
+  }
+
+  .textMailroom3 {
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    color: rgb(2, 122, 255);
+    font-size: 34px;
+    letter-spacing: 0.77px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+
+  .textThirdSection {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    width: 374px;
+    color: rgb(36, 47, 87);
+    font-size: 15px;
+    letter-spacing: 0.47px;
+    line-height: 26px;
+  }
+  .ThirdSectionList {
+    list-style: none;
+    padding: 27px;
+  }
+  .listItemsThirdSection::before {
+    content: "•";
+    color: rgb(2, 122, 255);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 2em;
+  }
+  .listItemsThirdSection {
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    color: rgb(36, 47, 87);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+  }
+  .offLogo3 {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(2, 122, 255) 0px 2px 14px 0px;
+    padding: 1em;
+    position: absolute;
+    top: -2.4em;
+  }
+ 
+  .offLogo3 {
+    border-radius: 10px;
+    left:45%;
+  }
+  .rightPillsPic3 {
+    height: 300px;
+    transform: scaleX(-1);
+
+  }
+  .leftPillsPic3 {
+    display: none;
+    height: 175px;
+  }
+
+  /* Section4 */
+  /* TestimonialSection */
+  .testimonials {
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    grid-template-areas: "z";
+    padding-bottom: 5em;
+
+  }
+  .cardContainer1 {
+    grid-area: z;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+  }
+.card1{
+ align-self: center;
+  
 }
+.footerLogoDiv {
+  display: flex;
+ flex-flow: row wrap;
+}
+
+/* Footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr  1fr;
+  grid-template-rows: 1fr 2fr 2fr 0.25fr;
+  grid-template-areas:
+    ". aaa aaa  ."
+    ". hhh iii  ."
+    ". jjj kkk  ."
+    ". zzz zzz  .";
+}
+.bottomLine {
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+.bottomLineText {
+  justify-self: center;
+  align-self: center;
+}
+.socialLinks {
+  width: 40%;
+  
+}
+
+
+}
+
