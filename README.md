@@ -31,7 +31,7 @@ Monday:
                             -Use what is necessary
        One more day was given to act upon the feedback.
 Tuesday: 
-       Got to office around 10:50Am. Finished my work Desktop 98% and responsive around 96%.
+       Got to office around 10:50am. Finished my work Desktop 98% and responsive around 96%.
        Went back home and pushed my code on github. 
        Informed my LM about code push.
        
