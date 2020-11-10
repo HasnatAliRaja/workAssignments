@@ -59,6 +59,8 @@ html {
 }
 
 .flexContainer {
+  background-color: #f4f8fb;
+  min-height: 550px;
   padding-top: 120px;
   display: flex;
   margin-left: 12%;
@@ -96,7 +98,7 @@ html {
   letter-spacing: 0.47px;
   padding-bottom: 26px;
 }
-.image1 {
+.imageFirstSection {
   display: block;
   max-width: 100%;
   box-sizing: border-box;
@@ -141,7 +143,7 @@ button {
   position: relative;
 }
 
-.gridContainer {
+.gridContainerSecondSection {
   padding-top: 6em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -176,10 +178,10 @@ button {
 .leftPillsPic {
   height: 460px;
 }
-.item3 {
+.item3SecondSection {
   margin-top: 10em;
 }
-.item4 {
+.item4SecondSection {
   display: flex;
   justify-content: flex-end;
 }
@@ -255,7 +257,7 @@ button {
   position: relative;
 }
 
-.gridContainer3 {
+.gridContainerThirdSection {
   padding-top: 6em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -275,12 +277,12 @@ button {
   margin-bottom: 2em;
 }
 
-.manImageDiv3 {
+.manImageDivThirdSection {
   display: flex;
   justify-content: flex-start;
   align-content: center;
 }
-.manPic3 {
+.manPicThirdSection {
 }
 .rightPillsPic3 {
   height: 460px;
@@ -289,15 +291,15 @@ button {
 .leftPillsPic3 {
   height: 460px;
 }
-.item33 {
+.item3ThirdSection {
   margin-top: 10em;
 }
-.item43 {
+.item4ThirdSection {
   display: flex;
   justify-content: flex-end;
 }
 
-.textBusiness3 {
+.textBusinessThirdSection {
   font-family: "Muli", sans-serif;
   font-weight: 700;
   color: rgb(128, 77, 223);
@@ -307,7 +309,7 @@ button {
   /* padding-bottom: 1.5em; */
 }
 
-.textMailroom3{
+.textMailRoomThirdSection{
   font-family: "Muli", sans-serif;
   font-weight: 700;
   color: rgb(128, 77, 223);
@@ -360,9 +362,9 @@ button {
 
 
 
-/* Section4 */
+/* fourthSection */
 
-.section4Heading {
+.fourthSectionHeading {
   color: rgb(36, 47, 87);
   font-family: "Muli", sans-serif;
   font-weight: 700;
@@ -371,12 +373,12 @@ button {
   margin-bottom: 41px;
 }
 
-.section4Flexbox1 {
+.fourthSectionFlexbox1 {
   display: flex;
   justify-content: center;
   align-content: center;
 }
-.section4Flexbox2 {
+.fourthSectionFlexbox2 {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -384,7 +386,7 @@ button {
   padding-bottom: 4em;
 }
 
-.section4Image {
+.fourthSectionImage {
   height: 5vh;
 }
 .testimonials {
@@ -446,7 +448,7 @@ button {
   justify-self: flex-end;
   padding-left: 8em;
 }
-.cardsBottom {
+.cardsBottomSection {
   display: flex;
 }
 
@@ -692,7 +694,7 @@ button {
 
   /* Section 2 */
 
-  .gridContainer {
+  .gridContainerSecondSection {
     padding-top: 6em;
     display: grid;
     grid-template-columns: 1fr;
@@ -735,27 +737,27 @@ button {
     height: 10%;
     grid-area: a;
   }
-  .item3 {
+  .item3SecondSection {
     margin-top: 4em;
     grid-area: b;
     justify-self: center;
     width: 100%;
     margin-left: 4em;
   }
-  .item4 {
+  .item4SecondSection {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     grid-area: c;
     align-self: flex-start;
   }
-  .item2 {
+  .item2SecondSection {
     grid-area: a;
     margin-left: 300px;
     margin-top: 100px;
   }
 
-  .item1 {
+  .item1SecondSection {
     grid-area: a;
   }
   .textBusiness {
@@ -840,14 +842,14 @@ button {
   .card2 {
     display: none;
   }
-  .item23 {
+  .item2ThirdSection {
     grid-area: a;
     margin-left: 300px;
     margin-top: 100px;
   }
 
 
-  .gridContainer3 {
+  .gridContainerThirdSection {
     padding-top: 6em;
     display: grid;
     grid-template-columns: 1fr;
@@ -867,7 +869,7 @@ button {
     padding: 1em 0em 0em;
     margin-bottom: 6em;
   }
-  .manImageDiv3 {
+  .manImageDivThirdSection {
     display: flex;
 
     justify-content: center;
@@ -876,7 +878,7 @@ button {
     justify-self: center;
     grid-area: a;
   }
-  .manPic3 {
+  .manPicThirdSection {
     justify-self: center;
     align-self: center;
     height: 15em;
@@ -892,30 +894,30 @@ button {
     height: 10%;
     grid-area: a;
   }
-  .item33 {
+  .item3ThirdSection {
     margin-top: 4em;
     grid-area: b;
     justify-self: center;
     width: 100%;
     margin-left: 4em;
   }
-  .item43 {
+  .item4ThirdSection {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     grid-area: c;
     align-self: flex-start;
   }
-  .item23 {
+  .item2ThirdSection {
     grid-area: a;
     margin-left: 220px;
     margin-top: 100px;
   }
 
-  .item13 {
+  .item1ThirdSection {
     grid-area: a;
   }
-  .textBusiness3 {
+  .textBusinessThirdSection {
     font-family: "Muli", sans-serif;
     font-weight: 700;
     color: rgb(2, 122, 255);
@@ -989,7 +991,7 @@ button {
     height: 175px;
   }
 
-  /* Section4 */
+  /* fourthSection */
   /* TestimonialSection */
   .testimonials {
     
